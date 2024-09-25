@@ -9,9 +9,7 @@ for (let i=0; i<=15; i++){
 //while文で配列の値をすべて出力する
 let i = 0
 
-console.log(holiDays[i]);
-
 while (i<=15){
-    i += 1;
     console.log(holiDays[i]);
+    i += 1;
 }
