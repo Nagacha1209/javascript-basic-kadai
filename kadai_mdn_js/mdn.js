@@ -1,8 +1,12 @@
 //関数の定義
 const today = new Date();
-const todaysData = () => {
-    console.log(today.getUTCFullYear()+'年'+today.getUTCMonth()+'月'+today.getUTCDate()+'日');
+const year = today.getFullYear();
+const month = today.getMonth()+1;
+const day = today.getDate();
+
+const todayDate = () =>{
+    console.log(year+'年'+month+'月'+day+'日');
 }
 
 //出力
-todaysData();
+todayDate();
